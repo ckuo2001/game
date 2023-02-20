@@ -19,10 +19,6 @@
     "url": "https://github.com/ckuo2001/game/issues"
   },
   "homepage": "https://github.com/ckuo2001/game#readme",
-  "dependencies": {
-    "p5.play": "^3.6.2",
-    "three": "^0.149.0"
-  },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@web/dev-server": "^0.1.35",
