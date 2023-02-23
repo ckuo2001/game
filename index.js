@@ -23,7 +23,8 @@ function setup() {
   restartButton.position(width-70, height-70);
   restartButton.mousePressed(restart);
 
-	bin = new Sprite(binImg);
+  bin = new Sprite();
+  bin.image = binImg;
   bin.scale = 0.1;
 
 	trash = new Group();
@@ -51,6 +52,7 @@ function music() {
 }
 
 function draw() {
+  //bin.scale = 2;
   background(150);
 
   textSize(16);
